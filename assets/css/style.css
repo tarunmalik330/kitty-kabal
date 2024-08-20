@@ -32,7 +32,7 @@
   justify-content: space-between;
 }
 .min_h_screen {
-  min-height: 85vh;
+  min-height: 100vh;
 }
 .position_relative {
   position: relative;
@@ -124,9 +124,6 @@
   cursor: pointer;
 }
 @media (min-width: 991.98px) {
-  .min_h_screen {
-    min-height: 100vh;
-  }
   .p_header_content {
     padding-top: 100px;
   }
