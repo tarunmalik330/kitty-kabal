@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Bungee+Inline&display=swap");
+.baloo_thambi {
+  font-family: "Baloo Thambi 2", system-ui;
+}
+.bungee_inline {
+  font-family: "Bungee Inline", sans-serif;
+}
+:root {
+  --text-xs: 18px;
+  --text-sm: 20px;
+  --text-md: 32px;
+  --text-lg: 55px;
+  /* colors */
+  --text-white: #ffffff;
+  --text-black: #000000;
+  --text-skyblue: #00c2ff;
+}
+/* =====================colors===================== */
+.text_white {
+  color: var(--text-white);
+}
+.text_skyblue {
+  color: var(--text-skyblue);
+}
+.text_black {
+  color: var(--text-black);
+}
+
+/* =======================font-size=================== */
+.text_xs {
+  font-size: var(--text-xs);
+}
+.text_sm {
+  font-size: var(--text-sm);
+}
+.text_md {
+  font-size: var(--text-md);
+}
+.text_lg {
+  font-size: var(--text-lg);
+}
+/* ===========================font-weight=========================== */
+.font_normal {
+  font-weight: normal;
+}
+.font_bold {
+  font-weight: bold;
+}
+.font_semibold {
+  font-weight: 600;
+}
+/* =================line-height=================== */
+.leading_110 {
+  line-height: 110%;
+}
+.leading_120 {
+  line-height: 120%;
+}
+.leading_150 {
+  line-height: 150%;
+}
+@media (max-width: 1024.98px) {
+  :root {
+    --text-lg: 48px;
+  }
+}
+@media (max-width: 991.98px) {
+  :root {
+    --text-xs: 16px;
+    --text-lg: 40px;
+  }
+}
+@media (max-width: 768.98px) {
+  :root {
+    --text-md: 24px;
+    --text-lg: 32px;
+  }
+}
+@media (max-width: 576.98px) {
+  :root {
+    --text-sm: 18px;
+  }
+}
